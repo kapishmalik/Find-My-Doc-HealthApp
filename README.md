@@ -1,8 +1,6 @@
 # Mobile Computing CSE535 Course Project
-# Title :
-# Find My Doc-HealthApp
-# Description :
-# E-appointment android application 
+# Title : Find My Doc-HealthApp
+# An E-appointment android application 
 # Developers: 
 # Avni Malhan
 # Kapish Malik
