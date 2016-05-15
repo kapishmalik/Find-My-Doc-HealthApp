@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#23C0C5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:id="@+id/imageView"
+            android:src="@drawable/qualification" />
+    </LinearLayout>
+
+
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView android:id="@+id/ugdegree" android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:hint="@string/prompt_ug_degree"
+                    android:imeActionLabel="@string/action_sign_up"
+                    android:imeOptions="actionUnspecified"
+                    android:maxLines="1" android:singleLine="true"
+                    android:layout_marginBottom="20dp"
+                    android:textColorHint="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:typeface="serif"
+                    android:textColor="@color/white" />
+
+                <AutoCompleteTextView android:id="@+id/pgdegree" android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:hint="@string/prompt_pg_degree"
+                    android:imeActionLabel="@string/action_sign_up"
+                    android:imeOptions="actionUnspecified"
+                    android:maxLines="1" android:singleLine="true"
+                    android:layout_marginBottom="20dp"
+                    android:textColorHint="@color/white"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:textColor="@color/white" />
+
+                <AutoCompleteTextView android:id="@+id/otherdegree" android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:hint="@string/prompt_other_degree"
+                    android:imeActionLabel="@string/action_sign_up"
+                    android:imeOptions="actionUnspecified"
+                    android:maxLines="1" android:singleLine="true"
+                    android:layout_marginBottom="20dp"
+                    android:textColorHint="@color/white"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:textColor="@color/white" />
+
+                <AutoCompleteTextView android:id="@+id/speciality" android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:hint="@string/prompt_speciality"
+                    android:imeActionLabel="@string/action_sign_up"
+                    android:imeOptions="actionUnspecified"
+                    android:maxLines="1" android:singleLine="true"
+                    android:layout_marginBottom="20dp"
+                    android:textColorHint="@color/white"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:textColor="@color/white" />
+
+                <EditText android:id="@+id/medicalCouncilNo" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="@string/prompt_medical_council"
+                    android:imeActionLabel="@string/action_sign_up"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textEmailAddress" android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    />
+
+
+            </LinearLayout>
+
+         <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_gravity="center_horizontal"
+android:layout_margin="20dp"
+android:layout_weight="2">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clear"
+            android:text="Clear"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textSize="20dp"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/save_and_next"
+            android:text="Next >>"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textSize="20dp"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#23C0C5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:id="@+id/imageView"
+            android:src="@drawable/clinic" />
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:orientation="vertical">
+
+        <EditText android:id="@+id/clinicname" android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:hint="@string/prompt_clinic_name"
+                    android:imeActionLabel="@string/action_sign_up"
+                    android:imeOptions="actionUnspecified"
+                    android:maxLines="1" android:singleLine="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textColorHint="@color/white"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:textColor="@color/white" />
+
+                <EditText android:id="@+id/clinicaddress" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="@string/prompt_clinic_address"
+                    android:imeActionLabel="@string/action_sign_up"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textEmailAddress" android:maxLines="1"
+                    android:singleLine="true"
+                    android:layout_marginBottom="20dp"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    />
+
+                <EditText android:id="@+id/contact" android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:hint="@string/prompt_clinic_contact"
+                    android:imeActionLabel="@string/action_sign_up" android:inputType="number"
+                    android:imeOptions="actionUnspecified"
+                    android:maxLines="1" android:singleLine="true"
+                    android:layout_marginBottom="20dp"
+                    android:textColorHint="@color/white"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:textColor="@color/white" />
+
+                <EditText android:id="@+id/fees" android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:hint="@string/prompt_fees"
+                    android:imeActionLabel="@string/action_sign_up" android:inputType="number"
+                    android:imeOptions="actionUnspecified"
+                    android:maxLines="1" android:singleLine="true"
+                    android:layout_marginBottom="20dp"
+                    android:textColorHint="@color/white"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:layout_weight="2">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clear"
+            android:text="Clear"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textSize="20dp"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_up_button"
+            android:text="SIGNUP"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textSize="20dp"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

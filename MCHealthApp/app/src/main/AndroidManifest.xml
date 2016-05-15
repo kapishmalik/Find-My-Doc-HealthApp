@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.kapish.mchealthapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".DoctorDifferentSignup"
+            android:label="@string/title_activity_doctor_different_signup" >
+        </activity>
+        <activity
+            android:name=".PatientDifferentSignup"
+            android:label="@string/title_activity_patient_different_signup" >
+        </activity>
+        <activity
+            android:name=".PatientSignup"
+            android:label="@string/title_activity_patient_signup"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".RecoverPassword"
+            android:label="@string/title_activity_recover_password" >
+        </activity>
+        <activity
+            android:name=".PatientEmailVerification"
+            android:label="@string/title_activity_email_verification" >
+        </activity>
+        <activity
+            android:name=".DoctorGeneralInfoSignup"
+            android:label="@string/title_activity_doctor_general_info_signup"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".DoctorQualificationSignup"
+            android:label="@string/title_activity_doctor_qualification_signup" >
+        </activity>
+        <activity
+            android:name=".DoctorClinicDetailsSignup"
+            android:label="@string/title_activity_doctor_clinic_details_signup" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".DoctorEmailVerification"
+            android:label="@string/title_activity_doctor_email_verification" >
+        </activity>
+        <activity
+            android:name=".TabsDoc"
+            android:label="@string/title_activity_tabs_doc" >
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".TabsPatient"
+            android:label="@string/title_activity_tabs_patient"
+            >
+        </activity>
+        <activity
+            android:name=".ChooseAppointmentSlot"
+            android:label="@string/title_activity_choose_appointment_slot" >
+        </activity>
+        <activity
+            android:name=".TimeSlotsActivity"
+            android:label="TimeSlotsActivity" >
+        </activity>
+        <activity
+            android:name=".CalendarActivity"
+            android:label="@string/title_activity_calendar" >
+        </activity>
+        <activity
+            android:name=".ListViewActivity"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name=".PatientChangePassword"
+            android:label="@string/title_activity_patient_change_password" >
+        </activity>
+        <activity
+            android:name=".DoctorProfile"
+            android:label="@string/title_activity_doctor_profile" >
+        </activity>
+        <activity
+            android:name=".SearchResults"
+            android:label="@string/title_activity_your_search_results" >
+        </activity>
+        <activity
+            android:name=".ConfirmBooking"
+            android:label="@string/title_activity_confirm_booking" >
+        </activity>
+        <activity
+            android:name=".AddClinic"
+            android:label="Add Clinic" >
+        </activity>
+    </application>
+
+
+</manifest>

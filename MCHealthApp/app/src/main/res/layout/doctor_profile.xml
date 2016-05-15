@@ -1,0 +1,484 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:id="@+id/scrollView2"
+        >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="match_parent" tools:context="com.mc.user.healthapp.Doctor_profile"
+            android:background="#000"
+            android:scrollbars="horizontal"
+            android:id="@+id/head"
+            >
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/linearLayout6"
+                android:background="#21ACB1"
+                android:layout_below="@+id/linearLayout10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Name"
+                    android:layout_weight="3"
+                    android:layout_gravity="center"
+                    android:id="@+id/textView12"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:inputType="textPersonName"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:hint="Name"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/editTextName"
+                    android:textColorHint="#FFF"
+                    android:singleLine="true"
+                    />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#23C0C5"
+                android:id="@+id/linearLayout8"
+                android:layout_below="@+id/linearLayout6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Age"
+                    android:id="@+id/textView13"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:textColor="#FFF"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/editTextAge"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:textColorHint="#FFF"
+                    android:singleLine="true"
+                    android:hint="Age"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#23C0C5"
+                android:id="@+id/linearLayout9"
+                android:layout_below="@+id/linearLayout16"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:text="Email"
+                    android:textColor="#FFF"
+                    android:id="@+id/textView15"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:inputType="textEmailAddress"
+                    android:ems="10"
+                    android:textColor="@color/white"
+                    android:id="@+id/editTextemail"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColorHint="#FFF"
+                    android:hint="Email id"
+                    android:singleLine="true"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/linearLayout10"
+                android:padding="10dp"
+                android:background="#000"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:id="@+id/imageView7"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@mipmap/ic_default_pic" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#21ACB1"
+                android:layout_below="@+id/linearLayout9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/linearLayout12">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Medical Council No."
+                    android:textSize="12sp"
+                    android:textColor="#FFF"
+                    android:layout_weight="3"
+                    android:id="@+id/textView17" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/editTextCouncil"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:hint="Council Number"
+                    android:textColorHint="#FFF"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/linearLayout12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#23C0C5"
+                android:id="@+id/linearLayout13">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Qualification"
+                    android:textSize="15sp"
+                    android:textColor="#FFF"
+                    android:id="@+id/textView18"
+                    android:layout_weight="3"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/editTextqualification"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:hint="Latest Qualification"
+                    android:textColorHint="#FFF"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#21ACB1"
+                android:layout_below="@+id/linearLayout13"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/linearLayout14">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Speciality"
+                    android:textSize="15sp"
+                    android:textColor="#FFF"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:id="@+id/textView19" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/editTextspeciality"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:hint="Speciality"
+                    android:textColor="@color/white"
+                    android:textColorHint="#FFF"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/linearLayout17"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000"
+                android:id="@+id/linearLayout15">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageButtonManageDates"
+                    android:background="#000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@mipmap/ic_date_icon"
+                    />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageButtonManageClinics"
+                    android:background="#000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@mipmap/ic_clinic"
+                    />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageButtonManageSlots"
+                    android:background="#000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@mipmap/ic_slot_icon" />
+
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/fwdPwd"
+                    android:background="#000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@mipmap/ic_password_icon" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/logout"
+                    android:background="#000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@mipmap/ic_logout" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#23C0C5"
+                android:id="@+id/linearLayout17"
+                android:layout_below="@+id/linearLayout14"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:text="Experience (years)"
+                    android:textColor="#FFF"
+                    android:id="@+id/textView30"
+                    android:textSize="12sp"
+                    />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:inputType="textEmailAddress"
+                    android:ems="10"
+                    android:id="@+id/editTextexperience"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:textColorHint="#FFF"
+                    android:hint="Experience"
+                    android:singleLine="true"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:background="#21ACB1"
+                android:layout_below="@+id/linearLayout8"
+                android:layout_height="40dp"
+                android:id="@+id/linearLayout16"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Gender"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:id="@+id/textView23" />
+                 <RadioGroup
+                     android:layout_width="wrap_content"
+                     android:layout_height="fill_parent"
+                     android:orientation="horizontal"
+                     >
+                <RadioButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Male"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+
+                    android:id="@+id/radioButtonMale" />
+
+                <RadioButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Female"
+                    android:textColor="#FFF"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:id="@+id/radioButtonFemale" />
+
+                <RadioButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Other"
+                    android:layout_weight="1"
+                    android:textColor="#FFF"
+                    android:id="@+id/radioButtonOther"
+                    android:layout_marginRight="20dp"/>
+                 </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:background="#000"
+                android:layout_below="@+id/linearLayout15"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Manage Dates"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/textView20" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Manage Clinics"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:id="@+id/textView26" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Manage Slots"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:id="@+id/textView21" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Change Password"
+                    android:textSize="12sp"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/textView22" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Logout"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:id="@+id/textView211" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

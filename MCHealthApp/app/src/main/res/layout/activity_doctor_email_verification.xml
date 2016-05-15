@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="30dp"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:typeface="serif"
+        android:id="@+id/textView2"
+        android:background="@drawable/signup"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+         />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:orientation="vertical">
+
+        <EditText android:id="@+id/key" android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:hint="@string/prompt_email_verification"
+            android:imeActionLabel="@string/action_sign_up"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1" android:singleLine="true"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textColor="@color/white" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirm"
+            android:text="Confirm your Signup"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textSize="20dp"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

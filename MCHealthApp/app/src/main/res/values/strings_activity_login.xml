@@ -1,0 +1,33 @@
+<resources>
+<!-- Strings related to login -->
+<string name="prompt_email">Email</string>
+<string name="prompt_password">Password</string>
+<string name="action_sign_in">Login</string>
+<string name="invalid_email">This email address is invalid</string>
+    <string name="prompt_name">Full Name</string>
+    <string name="action_sign_up">Signup</string>
+    <string name="prompt_contact">Contact No</string>
+    <string name="prompt_email_verification">Email Verification Code</string>
+    <string name="prompt_dateofbirth">Date of Birth</string>
+    <string name="prompt_yearsOfExp">Years of Experience as Practitioner</string>
+    <string name="prompt_address">Address</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_recover_pwd">Recover Password</string>
+    <string name="spinner_title">Select Gender</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="radio_other">Other</string>
+    <string name="prompt_medical_council">Medical Council No</string>
+    <string name="prompt_ug_degree">Under Graduate Degree</string>
+    <string name="prompt_pg_degree">Post Graduate Degree</string>
+    <string name="prompt_other_degree">Other Degree/Super Speciality</string>
+    <string name="prompt_speciality">Speciality</string>
+
+    <string name="prompt_clinic_name">Clinic Name</string>
+    <string name="prompt_clinic_address">Clinic Address</string>
+    <string name="prompt_fees">Fees : Rs.</string>
+    <string name="prompt_clinic_contact">Clinic Contact No</string>
+<string name="invalid_password">Password is too short</string>
+<string name="incorrect_password">Password is incorrect</string>
+<string name="field_required">This field is required</string>
+</resources>

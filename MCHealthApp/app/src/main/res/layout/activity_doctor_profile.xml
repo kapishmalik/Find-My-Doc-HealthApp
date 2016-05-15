@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#23C0C5"
+    tools:context="com.example.project.healthapp.DoctorProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="#ffff"
+            android:src="@mipmap/dr3"
+            android:scaleType="centerInside"/>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:textColor="#ffff"
+            android:id="@+id/txtdoctorName"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+             />
+
+            <TextView
+            android:layout_width="210dp"
+            android:layout_height="25dp"
+            android:textColor="#ffff"
+            android:id="@+id/txtdoctorSpeciality"
+            android:textSize="18dp"
+            android:layout_marginLeft="40dp"
+            />
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="25dp"
+                android:textColor="#ffff"
+                android:id="@+id/txtdoctoryrsofexp"
+                android:textSize="16dp"
+                android:layout_marginLeft="40dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#21ACB1"
+        android:radius = "30dip"
+        android:layout_margin="5dp">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <TableRow android:layout_margin="1dp">
+                <ImageView
+                    android:layout_height="30dp"
+                    android:layout_width="20dp"
+                    android:background="#ffff"
+                    android:src="@mipmap/clinic"
+                    android:scaleType="centerInside" />
+                <TextView
+                    android:id="@+id/txtclinic"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="05dp"
+                    android:layout_marginTop="05dp"
+                    android:textColor="#ffff"
+                    android:fontFamily="Sans Serif"/>
+
+            </TableRow>
+            <TableRow android:layout_margin="0.5dip">
+                <ImageView
+                    android:layout_height="30dp"
+                    android:layout_width="20dp"
+                    android:background="#ffff"
+                    android:src="@mipmap/email1"
+                    android:scaleType="centerInside"
+                    />
+                <TextView
+                    android:id="@+id/txtemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="05dp"
+                    android:layout_marginTop="05dp"
+                    android:textColor="#ffff"
+                    android:fontFamily="Sans Serif" />
+            </TableRow>
+            <TableRow android:layout_margin="0.5dip">
+                <ImageView
+                    android:layout_height="30dp"
+                    android:layout_width="20dp"
+                    android:background="#ffff"
+                    android:src="@mipmap/phone"
+                    android:scaleType="centerInside"
+                    />
+                <TextView
+                    android:id="@+id/txtmobno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="05dp"
+                    android:layout_marginTop="05dp"
+                    android:textColor="#ffff"
+                    android:fontFamily="Sans Serif"
+                    />
+            </TableRow>
+            <TableRow android:layout_margin="0.5dip">
+                <ImageView
+                    android:layout_height="30dp"
+                    android:layout_width="20dp"
+                    android:background="#ffff"
+                    android:src="@mipmap/edu"
+                    android:scaleType="centerInside"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    />
+                <TextView
+                    android:id="@+id/txtedu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Sans Serif"
+                    android:textColor="#ffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="05dp"
+                    android:layout_marginTop="05dp"
+                    />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="BOOK APPOINTMENT"
+        android:background="@drawable/button"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:fontFamily="Sans Serif"
+        android:textColor="#ffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="05dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/button_book"
+        android:nestedScrollingEnabled="false"
+        android:onClick="onBtnBook" />
+
+</LinearLayout>

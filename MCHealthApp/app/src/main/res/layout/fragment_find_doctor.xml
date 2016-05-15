@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="#23C0C5"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent" tools:context="com.example.kapish.mchealthapp.FindDoctor">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout2"
+        android:background="#ffffff"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView"
+            android:src="@mipmap/my_image"
+            android:scaleType="fitStart"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="#23c0c5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="  Find Doctor"
+            android:id="@+id/textView"
+            android:textSize="35dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#FFFF"
+            android:background="#23C0C5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/layout3"
+        android:background="#21ACB1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:layout_below="@+id/layout2">
+
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:layout_marginLeft="05dp"
+            android:layout_marginRight="05dp">
+
+
+            <TableRow
+                android:background="@drawable/rounded_corner"
+                android:layout_margin="05dip"
+                >
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="07dp"
+                    android:text="Speciality"
+                    android:textSize="20dp"
+                    android:textColor="#21ACB1"
+                    android:layout_marginLeft="05dp" />
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/textView2"
+                    android:layout_marginTop="07dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="17dp"
+                    android:ems="10"
+                    android:backgroundTint="@color/background"
+                    android:textCursorDrawable="@color/background"
+                    android:textColor="#1e9ca1"
+                    android:fontFamily="sans-serif"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext">
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+            </TableRow>
+            <TableRow android:background="@drawable/rounded_corner"
+                android:layout_margin="05dip">
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="07dp"
+                    android:text="Location"
+                    android:textSize="20dp"
+                    android:textColor="#21ACB1"
+                    android:layout_marginLeft="05dp" />
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="07dp"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#1e9ca1"
+                    android:backgroundTint="@color/background"
+                    android:textCursorDrawable="@color/background"
+                    android:fontFamily="sans-serif"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:imeOptions="actionDone">
+
+                </AutoCompleteTextView>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight=".05"
+        >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/btnSearch"
+        android:background="@drawable/button"
+        android:padding="10dip"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="100dp"
+        android:onClick="onSearchBtnClick"
+        android:layout_below="@+id/layout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="05dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/buttonclr"
+        android:background="@drawable/button"
+        android:padding="10dip"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textColor="#ffff"
+        android:layout_marginLeft="10dp"
+        android:onClick="onClearBtnClick"
+        android:layout_alignTop="@+id/btnSearch"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="05dp" />
+    </LinearLayout>
+
+</LinearLayout>

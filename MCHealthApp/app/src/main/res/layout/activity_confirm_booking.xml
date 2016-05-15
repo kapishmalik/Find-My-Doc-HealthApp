@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:paddingBottom="80dp"
+    android:background="#23C0C5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="Your appointment sent for approval"
+        android:textStyle="bold|italic"
+        android:textSize="14pt"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/bookConfirm"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="Clinic Name"
+        android:id="@+id/textViewClinicName"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:background="#23C0C3"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal" />
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+

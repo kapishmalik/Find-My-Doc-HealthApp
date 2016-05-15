@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#23C0C5"
+    tools:context="com.example.project.healthapp.ViewAppointmentStatus"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#23C0C5"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="Your Appointment Status"
+            android:textSize="25dp"
+            android:background="#23C0C5"
+            android:padding="10dp"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="40dp"
+            android:textColor="#ffff"/>
+    </RelativeLayout>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:id="@+id/Appointments"
+                android:focusable="true"
+                android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
