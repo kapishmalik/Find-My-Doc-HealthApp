@@ -2,8 +2,8 @@
 # E-appointment android application 
 # Title : Find My Doc-HealthApp
 # Developers: 
-Avni Malhan
-Kapish Malik
-Karishma Tirthani
-Meetika Anand
-Neeti Arora
+# Avni Malhan
+# Kapish Malik
+# Karishma Tirthani
+# Meetika Anand
+# Neeti Arora
