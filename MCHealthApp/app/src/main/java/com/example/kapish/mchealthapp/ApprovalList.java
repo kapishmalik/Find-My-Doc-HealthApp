@@ -451,7 +451,7 @@ public class ApprovalList extends Fragment  {
 
                 session = Session.getDefaultInstance(props, new Authenticator() {
                     protected PasswordAuthentication getPasswordAuthentication() {
-                        return new PasswordAuthentication("doctorandpatientappointment@gmail.com", "topper1234");
+                        return new PasswordAuthentication("doctorandpatientappointment@gmail.com", "XXXXXXXX");
                     }
                 });
 
@@ -538,7 +538,7 @@ public class ApprovalList extends Fragment  {
 
                 session = Session.getDefaultInstance(props, new Authenticator() {
                     protected PasswordAuthentication getPasswordAuthentication() {
-                        return new PasswordAuthentication("doctorandpatientappointment@gmail.com", "topper1234");
+                        return new PasswordAuthentication("doctorandpatientappointment@gmail.com", "XXXXXX");
                     }
                 });
 

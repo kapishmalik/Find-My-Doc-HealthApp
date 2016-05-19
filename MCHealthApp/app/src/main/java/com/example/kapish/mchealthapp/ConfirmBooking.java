@@ -171,7 +171,7 @@ public class ConfirmBooking extends AppCompatActivity {
 
                 session = Session.getDefaultInstance(props, new Authenticator() {
                     protected PasswordAuthentication getPasswordAuthentication() {
-                        return new PasswordAuthentication("doctorandpatientappointment@gmail.com", "topper1234");
+                        return new PasswordAuthentication("doctorandpatientappointment@gmail.com", "XXXXXX");
                     }
                 });
 
@@ -254,7 +254,7 @@ public class ConfirmBooking extends AppCompatActivity {
 
                 session = Session.getDefaultInstance(props, new Authenticator() {
                     protected PasswordAuthentication getPasswordAuthentication() {
-                        return new PasswordAuthentication("doctorandpatientappointment@gmail.com", "topper1234");
+                        return new PasswordAuthentication("doctorandpatientappointment@gmail.com", "XXXXXX");
                     }
                 });
 
